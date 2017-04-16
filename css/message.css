@@ -1,0 +1,14 @@
+.content_message {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	background: url(../images/divider.jpg) bottom repeat-x;
+}
+
+/* ---------------- Message --------------*/
+.content_message h2 {
+	margin: 0px 0px 5px 0px;
+}
+.content_message p {
+	margin: 10px 0px 0px 0px;
+	margin-bottom: 0px;
+}

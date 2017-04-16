@@ -1,0 +1,150 @@
+#tchat {
+	left: 10px;
+	top: 10px;
+	position: absolute;
+	display: none;
+}
+#tchat .top {
+	position: relative;
+	width: 100%;
+	height: 15px;
+	margin-left: -5px;
+}
+#tchat .top .right {
+	position: absolute;
+    margin-left: 10px;
+	width: 100%;
+	height: 15px;
+	background: url(../images/tchat/topright.png) top right no-repeat;
+}
+#tchat .top .left {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 10px;
+	height: 15px;
+	background: url(../images/tchat/topleft.png) top left no-repeat;
+}
+#tchat .content {
+	width: 100%;
+	position: relative;
+	background: #FFFFFF;
+}
+#tchat .content .left {
+	width: 5px;
+	position: absolute;
+	background: url(../images/tchat/contentleft.png) top left repeat-y;
+	margin-left: -5px;
+	height: 100%;
+	left: 0px;
+}
+#tchat .content .center {
+	position: relative;
+	float: left;
+	width: 160px;
+	height: 110px;
+}
+#tchat .content .right {
+	position: absolute;
+	width: 5px;
+	height: 100%;
+	background: url(../images/tchat/contentright.png) top right repeat-y;
+}
+#tchat .bottom {
+	position: relative;
+	width: 100%;
+	height: 15px;
+	margin-left: -5px;
+}
+
+#tchat .bottom .right {
+	position: absolute;
+	margin-left: 10px;
+	width: 100%;
+	height: 15px;
+	background: url(../images/tchat/bottomright.png) bottom right no-repeat;
+	cursor: se-resize;
+}
+
+#tchat .bottom .left {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 10px;
+	height: 15px;
+	background: url(../images/tchat/bottomleft.png) bottom left no-repeat;
+}
+#tchat_button {
+	cursor: pointer;
+}
+#tchat_close {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	right: -2px;
+	cursor: pointer;
+}
+#tchat_connect {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	right: 18px;
+	cursor: pointer;
+}
+#tchat_connectBox {
+	position: absolute;
+	width: 150px;
+	cursor: default;
+	top: 15px;
+	right: -28px;
+	z-index: 1;
+	display: none;
+}
+#tchat_connectBox .top {
+	height: 13px;
+	width: 150px;
+	background: url(../images/tchat/menutop.png);
+	right: -5px;
+}
+#tchat_connectContent {
+	width: 140px;
+	background: #434343;
+	color: #FFF;
+	padding: 0 5px 0 5px;
+}
+#tchat_connectBox .bot {
+	width: 150px;
+	height: 5px;
+	background: url(../images/tchat/menubot.png);
+}
+#tchat_fix {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	right: 37px;
+	cursor: pointer;
+}
+#tchat_msg {
+	overflow: auto;
+	height: 86px;
+}
+#tchat_textzone {
+	width: 156px;
+}
+#cursor {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 100;
+}
+
+/* Dans le tchat */
+#tchat_msg h6 {
+	margin: 0;
+}
+#tchat_msg .inter {
+	background: #E6E6E6;
+	height: 1px;
+	margin-top: 5px;
+}

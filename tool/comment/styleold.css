@@ -1,0 +1,100 @@
+/* .box
+{
+     background-color:#FFFFFF;
+     border: 1px solid #000000;
+}
+
+.form
+{
+     background-color: #D8D8D8 ;
+     border: 0px solid #000000;
+} */
+
+/*News design*/
+
+.box {
+
+}
+
+.form
+{
+     background-color: #D8D8D8 ;
+     border: 0px solid #000000;
+}
+
+.top {
+	position: relative;
+	width: 100%;
+	height: 10px;
+	margin-left: -5px;
+	margin-top: -10px;
+}
+
+.top .right {
+	position: absolute; /*relative*/
+    margin-left: 10px;
+	width: 100%;
+	height: 10px;
+	background: url(/MHfr78/images/comment/topright.png) top right no-repeat;
+}
+
+.top .left {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 10px;
+	height: 10px;
+	background: url(/MHfr78/images/comment/topleft.png) top left no-repeat;
+}
+
+.contner {
+	height: 100%;
+	width: 100%;
+}
+
+.contner .left {
+	float: left;
+	height: 100%;
+	width: 5px;
+	margin-left: -5px;
+	background: #FF0000;
+}
+
+.contner .right {
+	float: right;
+	height: 100%;
+	width: 5px;
+	margin-right: -5px;
+	background: #FF0000
+}
+
+.contner .content {
+	position: relative;
+	height: 130px;
+	width: 100%;
+	background: #FFFFFF;
+}
+
+.bottom {
+    position: relative;
+	width: 100%;
+	height: 10px;
+	margin-left: -5px;
+}
+
+.bottom .right {
+	position: absolute;
+  margin-left: 10px;
+	width: 100%;
+	height: 10px;
+	background: url(/MHfr78/images/comment/bottomright.png) bottom right no-repeat;
+}
+
+.bottom .left {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 10px;
+	height: 10px;
+	background: url(/MHfr78/images/comment/bottomleft.png) bottom left no-repeat;
+}

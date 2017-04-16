@@ -1,0 +1,1 @@
+<?php $bdd = new PDO('mysql:host=localhost;dbname=cloud_si', 'cloud_si', 'cloud_si_pwd'); ?>

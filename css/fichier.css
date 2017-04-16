@@ -1,0 +1,33 @@
+.fichier_list {
+	clear: both;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+.fichier_list ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.fichier_list ul li {
+	display: block;
+	width: auto;
+	height: 100px;
+	padding: 8px;
+	margin: 0 0 20px 0;
+	border: 1px solid #666;
+	background: #fff;
+}
+.fichier_list ul li img {
+	margin-right: 10px;
+	float: left;
+}
+.fichier_list ul li h4 {
+	margin: 30px 0 0 0;
+}
+.fichier_list .prop {
+	color: #FF0000;
+	float: right;
+}
+.fichier_list ul li a:hover {
+	color: #0066AA;
+}
